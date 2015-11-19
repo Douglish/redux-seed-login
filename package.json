@@ -1,15 +1,13 @@
 {
   "name": "Redux-Seed-Login",
   "version": "0.0.1",
-  "description": "Redux App example with login"
-  "main": "index.js",
+  "description": "Redux App example with login",
   "scripts": {
     "build": "BUILD_DEV=false webpack -p --colors --progress --devtool source-map",
     "dev": "webpack-dev-server --devtool inline-source-map --content-base dist --history-api-fallback --inline --hot"
   },
   "author": "Dalibor Horinek <dal@horinek.net>",
   "license": "ISC",
-  "git": "https://github.com/Douglish/redux-seed-login.git",
   "devDependencies": {
     "babel": "^6.1.18",
     "babel-cli": "^6.1.2",
