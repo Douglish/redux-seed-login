@@ -4,7 +4,7 @@ import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { logout } from 'actions/auth'
 
-export default class UserContainer extends React.Component {
+export class UserContainer extends React.Component {
   static propTypes = {
     user: PropTypes.object.isRequired,
     logout: PropTypes.func.isRequired
@@ -12,7 +12,7 @@ export default class UserContainer extends React.Component {
 
   render() {
     let { user } = this.props;
-    
+
     return (
       <div>
         <h1>{ user.fullName }</h1>
